@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanya Gupta - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/simplebar/dist/simplebar.min.css" />
+    <script src="https://unpkg.com/simplebar/dist/simplebar.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Sanya Gupta's Developer Portfolio showcasing projects and skills in AI and ML.">
+    <meta name="keywords" content="AI, Machine Learning, Web Development, Portfolio">
+    <meta name="author" content="Sanya Gupta">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXX-X');
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sanya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                <p>Hi, my name is</p>
+                <p class="purple">Sanya Gupta</p>
+                <p>and I am a</p>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="your-resume.pdf" class="btn" download>Download My Resume</a>
+                    <a href="https://github.com/yourprofile" class="btn">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img.jpg" alt="Sanya Gupta's profile picture" loading="lazy">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What have I done so far</span>
+            <h1>Certifications</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/icon/microsoft.png" alt="Microsoft Azure AI Fundamentals logo">
+                    <h2>Azure AI Fundamentals</h2>
+                    <p>Microsoft</p>
+                    <p>July 8, 2024</p>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/icon/java-script.png"
+                        alt="JavaScript Certified Entry-Level Programmer logo">
+                    <h2>JSE - Certified Entry-Level JavaScript Programmer</h2>
+                    <p>OpenEDG</p>
+                    <p>June 1, 2024</p>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/icon/ibm.png" alt="IBM Python for Data Science, AI & Development logo">
+                    <h2>Python for Data Science, AI & Development</h2>
+                    <p>IBM</p>
+                    <p>March 30, 2024</p>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/icon/ibm.png" alt="IBM Data Science logo">
+                    <h2>What is Data Science?</h2>
+                    <p>IBM</p>
+                    <p>Oct 16, 2023</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Sanya's work on our video project was outstanding. She exceeded our expectations!"</p>
+                <h4>-Anonymous</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Highly skilled and professional. Sanya delivered the project ahead of schedule."</p>
+                <h4>-Anonymous</h4>
+            </div>
+        </section>
+        <hr>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <h4>Python Development</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Web Development</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            </div>
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>RoboSpeaker</h3>
+                <p>RoboSpeaker is a simple text-to-speech application created using Python and the win32com library for Windows. This project allows users to enter text, select a voice from available options, and hear the entered text spoken by the chosen voice.</p>
+                <a href="https://github.com/sanz2105/SpeakRobo-Project" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <h3> Valentine's Day Special Page</h3>
+                <p>This repository contains a simple web page designed for celebrating Valentine's Day. The page features a romantic theme with animations and interactive elements, making it perfect for sharing love and joy on this special occasion.</p>
+                <a href="https://github.com/sanz2105/valentine-page" class="project-link">View Project</a>
+            </div>
+        </section>
+        <hr>
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Post Title</h3>
+                <p>A brief snippet of the blog post to entice the reader to click and read more.</p>
+                <a href="blog-post.html" class="blog-link">Read More</a>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="your-backend-script" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Sanya's Developer Portfolio</h3>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><img src="/icon/image.png" alt="Twitter"></a>
+                <a href="#"><img src="/icon/social.png" alt="LinkedIn"></a>
+                <a href="#"><img src="/icon/github.png" alt="GitHub"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sanya Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Python Developer', 'ML Engineer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+
+        const toggleButton = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+        });
+    </script>
+</body>
+
+</html>
